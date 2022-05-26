@@ -1,4 +1,4 @@
-# faster monte-carlo
+## faster monte-carlo
  use numba and parallel to accelerate mc simulation
 
 The main purpose is to price an option by monte carlo method.
@@ -10,4 +10,10 @@ The method still has some problems:
 - vectorization does not accelerate the process compared with simple loop
 - the use of numba is very limited
 - muti-level parallel does not work
+
+
+
+## decision boundary plot
+
+We use contour plots to draw the 2-dimension decision boundary of different ML. 
 
